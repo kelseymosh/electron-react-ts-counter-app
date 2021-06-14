@@ -1,0 +1,32 @@
+.App {
+    display: flex;
+    justify-content: center;
+}
+
+.counter-container {
+    max-width: 600px;
+    margin: 20vh auto;
+}
+
+h1 {
+    font-size: 50px;
+    color: #999999;
+    margin: 20px;
+    text-align: center;
+}
+
+.count {
+    background-color: #aaaaff;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10em;
+    margin: 30px 0 30px 0;
+}
+
+button {
+    padding: 10px 5px;
+    font-size: 70px;
+    width: 150px;
+}

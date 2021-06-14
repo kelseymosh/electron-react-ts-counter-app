@@ -1,10 +1,11 @@
 import React from 'react';
-import { Counter } from './components/Counter'
+import { Counter } from './components/Counter';
+import './App.global.css';
 
 export default function App() {
     return (
-        <>
-            <Counter/>
-        </>
+        <div className="App">
+            <Counter />
+        </div>
     )
 }
